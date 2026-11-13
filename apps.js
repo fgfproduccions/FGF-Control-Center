@@ -1,0 +1,36 @@
+// Llista d'apps del Control Center.
+// Per afegir una app nova: copia un bloc i omple'n els camps.
+// Cada app té el seu propi login. Aquesta llista no conté dades sensibles.
+//
+// - nom:      com surt a la icona
+// - url:      adreça de l'app
+// - icona:    una lletra o paraula curta (o un emoji)
+// - color:    color de la icona (opcional, per defecte taronja)
+// - estat:    "activa" o "properament" (les properament no són clicables)
+
+const APPS = [
+  {
+    nom: "Pavellons",
+    descripcio: "Fitxes dels pavellons on fem streamings",
+    url: "https://fgfpavellons.pages.dev",
+    icona: "P",
+    color: "#F7901E",
+    estat: "activa",
+  },
+  {
+    nom: "Partits",
+    descripcio: "Resum dels partits del cap de setmana",
+    url: "",
+    icona: "🏀",
+    color: "#585858",
+    estat: "properament",
+  },
+  {
+    nom: "Grafisme",
+    descripcio: "Arxius i serveis de grafisme",
+    url: "",
+    icona: "G",
+    color: "#585858",
+    estat: "properament",
+  },
+];
