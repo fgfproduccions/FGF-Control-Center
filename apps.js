@@ -5,6 +5,7 @@
 // - nom:      com surt a la icona
 // - url:      adreça de l'app
 // - icona:    una lletra o paraula curta (o un emoji)
+// - imatge:   ruta a una imatge (opcional, substitueix la icona). Ex: "icones/app.png"
 // - color:    color de la icona (opcional, per defecte taronja)
 // - estat:    "activa" o "properament" (les properament no són clicables)
 
@@ -22,7 +23,8 @@ const APPS = [
     descripcio: "Control de les motxilles LiveU Solo (cal Tailscale)",
     url: "https://macbook-air-m5.tail8dbb6b.ts.net",
     icona: "LU",
-    color: "#F7901E",
+    imatge: "icones/liveu.png",
+    color: "#FFFFFF",
     estat: "activa",
   },
   {
