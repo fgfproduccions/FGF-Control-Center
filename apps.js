@@ -18,6 +18,14 @@ const APPS = [
     estat: "activa",
   },
   {
+    nom: "LiveU Control",
+    descripcio: "Control de les motxilles LiveU Solo (cal Tailscale)",
+    url: "https://macbook-air-m5.tail8dbb6b.ts.net",
+    icona: "LU",
+    color: "#F7901E",
+    estat: "activa",
+  },
+  {
     nom: "Partits",
     descripcio: "Resum dels partits del cap de setmana",
     url: "",
