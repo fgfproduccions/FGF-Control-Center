@@ -28,6 +28,15 @@ const APPS = [
     estat: "activa",
   },
   {
+    nom: "MCR",
+    descripcio: "Control central dels streamings (cal Tailscale)",
+    url: "https://macbook-air-m5.tail8dbb6b.ts.net:10000",
+    icona: "M",
+    imatge: "icones/mcr.png",
+    color: "#3B94A3",
+    estat: "activa",
+  },
+  {
     nom: "Partits",
     descripcio: "Resum dels partits del cap de setmana",
     url: "",
